@@ -1,16 +1,28 @@
 {
+<<<<<<< HEAD
   "name": "exercici-less",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "less": "less-watch-compiler ./src/styles/main.less ./build/styles/main.css ",
+=======
+  "name": "ebac-projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass src/main.scss dist/style.css --watch",
+>>>>>>> a534b39510ed3e0887b53735c7b6341074eb7ff7
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "devDependencies": {
     "less": "^4.2.0",
     "less-watch-compiler": "^1.16.3"
   }
+=======
+  "description": ""
+>>>>>>> a534b39510ed3e0887b53735c7b6341074eb7ff7
 }
